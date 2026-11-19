@@ -1,0 +1,11 @@
+# Python 3.9.13. TensorFlow GPU runtime is provided separately.
+tensorflow==2.9.1
+keras==2.9.0
+numpy==1.23.1
+scipy==1.9.0
+pandas==1.4.3
+h5py==3.14.0
+protobuf==3.19.6
+pytest==7.1.2
+matplotlib==3.5.3
+Pillow==9.2.0

@@ -1,0 +1,215 @@
+{
+  ".gitattributes": {
+    "current_sha256": "7477e787a92b6f36533b97ccb32c512f87bcf0939b6a0b0b08a748a1bbf07602",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  ".gitignore": {
+    "current_sha256": "8902e3bcbc16e925629496daff014d36ef06a9679f6b86f99fff42cce930a463",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  "configs/evaluate.json": {
+    "current_sha256": "79555a5582e3110c06681e1236510bd40afdb55bbded464b8f8329419a96fa94",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  "configs/train.json": {
+    "current_sha256": "776391daec5fac9dd89e6283536a3d5a7272aeebbce2a2833c5e2ee33eb7158d",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  "docs/protocol.md": {
+    "current_sha256": "b0995bad1389d4b414e10425a9133a346e33f8cec44b76add85eba1da582e575",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  "env/requirements.txt": {
+    "current_sha256": "7e1bec4634b448b0b800569d8d7497c4667cfcad820697476e9d8b220221b7f0",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  "evaluate.py": {
+    "current_sha256": "db0c045a55641f9ba53405b5d3a387a47e815902a1aef9f6f00b90f4fbc2695e",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown",
+    "historical_source": {
+      "project": "FIDN-2-public before usability revision",
+      "source_sha256": "25ebda8fca4f6486b04c7773f8e9644f80d5f991b6cf0dc8b01620b662f3bbcd",
+      "purpose": "Preserved formal metrics, prediction adapter and probability validation",
+      "verification": "recorded in prior manifest, source bytes not independently verified"
+    }
+  },
+  "FIDN/__init__.py": {
+    "current_sha256": "498462babbc5db8b14fdbf1fec52ebc7fa8c4a38aeaee94f4a3e5ea4bdb1a8fa",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  "FIDN/dataset.py": {
+    "current_sha256": "fa2a0c7fd83ef766526468202402a9f8924e1b882b7d0a7846337f60e2c2bba4",
+    "upstream_status": "verified_reference",
+    "project": "FIDN-main-2",
+    "source_path": "FIDN/dataset.py",
+    "original_sha256": "2d65d94d9683db5b4139ed73ae3eef9e61ca44b38a5a1f2a41772ca30f54b2d3",
+    "reference_revision": "974dd56b0eebee8ead7cec7ae0e21e805c85ac8c",
+    "git_blob_sha256": "804617c0fa6e6b07f0c726437696568c9537e69a272a9723c7800d85debfc70b",
+    "working_copy_vs_blob": "line_endings_only",
+    "modified": true
+  },
+  "FIDN/evaluation_metrics.py": {
+    "current_sha256": "844a042ce478e107ee480af851f24dd4f0b0ff5b7870b1893141c80f312d205b",
+    "upstream_status": "verified_reference",
+    "project": "FIDN-2",
+    "source_path": "FIDN/evaluation_metrics.py",
+    "original_sha256": "844a042ce478e107ee480af851f24dd4f0b0ff5b7870b1893141c80f312d205b",
+    "reference_revision": "723e8eb4c353a13b579674313727745d366ceaf5",
+    "git_blob_sha256": "b50527a79c271439bda2121a79517ad8236b37767fbc45baca26a5a327cb2376",
+    "working_copy_vs_blob": "line_endings_only",
+    "modified": false
+  },
+  "FIDN/losses.py": {
+    "current_sha256": "dbdb498d5a788c95e4bf501c0d647b27bf7400e5f0f77134d0d05967e716bfad",
+    "upstream_status": "verified_reference",
+    "project": "FIDN-2",
+    "source_path": "FIDN/losses.py",
+    "original_sha256": "64b0ee2cf53a683b3e4b0965c97bbdb7372bf76201bbd6876fa3a4e94b0f524d",
+    "reference_revision": "723e8eb4c353a13b579674313727745d366ceaf5",
+    "git_blob_sha256": "4eb1d5fb4c477e0a2e941ce702eafdc71efdac5ad9f1c1fc4fd78bc825e2dc27",
+    "working_copy_vs_blob": "line_endings_only",
+    "modified": true
+  },
+  "FIDN/models/__init__.py": {
+    "current_sha256": "959f9dd36fc7441f0330ea8e986edeb20d1307edb60b3261f4bb115d5fa6642f",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  "FIDN/models/densenet.py": {
+    "current_sha256": "475255849cc377335f542a04b7b3bf46b8bc2625fa9596ed83339535da198a9a",
+    "upstream_status": "verified_reference",
+    "project": "FIDN-main-2",
+    "source_path": "FIDN/models/densenet.py",
+    "original_sha256": "dff8841181ee0019f30cac21e669630fae85e2100527670ae1490128d8866895",
+    "reference_revision": "974dd56b0eebee8ead7cec7ae0e21e805c85ac8c",
+    "git_blob_sha256": "8a9e824c78de5d49ba53816d18a3d8316785b34561055ff610de4db4a985e20e",
+    "working_copy_vs_blob": "line_endings_only",
+    "modified": true,
+    "third_party_reference": "https://raw.githubusercontent.com/keras-team/keras-applications/bc89834ed36935ab4a4994446e34ff81c0d8e1b7/keras_applications/densenet.py"
+  },
+  "FIDN/models/matched_densenet.py": {
+    "current_sha256": "abc994246659aea7a6887025106aca5d7dee0a6fb4b1d6ffb6513d9991d3343b",
+    "upstream_status": "verified_reference",
+    "project": "FIDN-main-2",
+    "source_path": "FIDN/models/fidn.py",
+    "original_sha256": "6dbc989d9b99fce02be95f3780290110ba2dd584347fb072fc5a6869bb89b2f8",
+    "reference_revision": "974dd56b0eebee8ead7cec7ae0e21e805c85ac8c",
+    "git_blob_sha256": "55ef847771dadf0d14ce71be9474c41654715a2aa9d1583e88a095c4f951cc83",
+    "working_copy_vs_blob": "line_endings_only",
+    "modified": true
+  },
+  "FIDN/models/residual_unet.py": {
+    "current_sha256": "fe56388c86ec20b04daafdf5e7da9cf6a42709da70ef977f8850ae2425833724",
+    "upstream_status": "verified_reference",
+    "project": "FIDN-2",
+    "source_path": "FIDN/models/fidn.py",
+    "original_sha256": "1b24ba3fe5f2201a93370b794d677b88df8ea8a9d98d6a2dbd52a6656753cca7",
+    "reference_revision": "723e8eb4c353a13b579674313727745d366ceaf5",
+    "git_blob_sha256": "24a3b566a8be4c2445ba70efde782e8d0701c830ca8f76dec8fc68bf9e7bf631",
+    "working_copy_vs_blob": "line_endings_only",
+    "modified": true
+  },
+  "FIDN/models/resnet.py": {
+    "current_sha256": "84e6a553db835732f4a07eec49d51ba2bbdd76c6b28eaf311698a142140c7258",
+    "upstream_status": "verified_reference",
+    "project": "FIDN-2",
+    "source_path": "FIDN/models/resnet.py",
+    "original_sha256": "84e6a553db835732f4a07eec49d51ba2bbdd76c6b28eaf311698a142140c7258",
+    "reference_revision": "723e8eb4c353a13b579674313727745d366ceaf5",
+    "git_blob_sha256": "1ac2c3cfa92a802a36dc109fe48297b155bad42ed1e0e1e69db158e1be338725",
+    "working_copy_vs_blob": "line_endings_only",
+    "modified": false
+  },
+  "FIDN/protocol.py": {
+    "current_sha256": "1a82552434ab5542850d12e6665d19e498b6fa4407064fb36dc33abe1f888db1",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  "FIDN/raw_probability_metrics.py": {
+    "current_sha256": "efb4ed28b783cc66b94f479f3e00900edfc10bfbbb6781bfaa799374a2dc44a5",
+    "upstream_status": "verified_reference",
+    "project": "FIDN-2",
+    "source_path": "FIDN/raw_probability_metrics.py",
+    "original_sha256": "efb4ed28b783cc66b94f479f3e00900edfc10bfbbb6781bfaa799374a2dc44a5",
+    "reference_revision": "723e8eb4c353a13b579674313727745d366ceaf5",
+    "git_blob_sha256": "efb4ed28b783cc66b94f479f3e00900edfc10bfbbb6781bfaa799374a2dc44a5",
+    "working_copy_vs_blob": "identical",
+    "modified": false
+  },
+  "FIDN/run_utils.py": {
+    "current_sha256": "b47b977775cd22b3a6a2206a5bc50870c8f54d2a88aa0735cfb46630d60bed4d",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  "FIDN/visualization.py": {
+    "current_sha256": "488681c31e35b717828bedc957b603aef78783f32aa3e9c9aec8439d4cad2acb",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "verified_reference",
+    "project": "FIDN-2",
+    "source_path": "FIDN/evaluate.py",
+    "original_sha256": "fd4d966b0cd2eacf7ad391b08fe20e51b7c15bd7a9894c4a5a44cb5d53383431",
+    "reference_revision": "723e8eb4c353a13b579674313727745d366ceaf5",
+    "git_blob_sha256": "49dd1349a8c221d9d892a6a44e2a93cadb0f9b8362b53d2214b38e1e34efc1e1",
+    "working_copy_vs_blob": "line_endings_only",
+    "modified": true
+  },
+  "LICENSE": {
+    "current_sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a",
+    "upstream_status": "verified_reference",
+    "project": "FIDN-2",
+    "source_path": "LICENSE",
+    "original_sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a",
+    "reference_revision": "723e8eb4c353a13b579674313727745d366ceaf5",
+    "git_blob_sha256": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a",
+    "working_copy_vs_blob": "identical",
+    "modified": false
+  },
+  "licenses/KERAS_APPLICATIONS_MIT.txt": {
+    "current_sha256": "656909a517f0bce61fe9651cffd67107e233d63510c05f864813bb2bc3b60709",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown",
+    "license_reference": "https://github.com/keras-team/keras-applications/blob/master/LICENSE"
+  },
+  "README.md": {
+    "current_sha256": "255d1dbcba80579b8ca0dd47af858f6edb1ca0b954f632c91b0188fdc4b4f975",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  "THIRD_PARTY_NOTICES.md": {
+    "current_sha256": "1c3eae70328cbd7d42fe9873780fdc9cfd708fb2107200bc35fc77a30495337a",
+    "origin": "FIDN-2-public usability revision",
+    "upstream_status": "unknown"
+  },
+  "train.py": {
+    "current_sha256": "6fd97e2413a8d7b0410d52f93cd83b11a051cd06e11acbb33856b974537cddd9",
+    "upstream_status": "verified_reference",
+    "sources": [
+      {
+        "project": "FIDN-main-2",
+        "source_path": "train.py",
+        "original_sha256": "22cf7f2f8b3d9f470e3c5e73a103c390ce149a02d813f08c1b7d3bb249114751",
+        "reference_revision": "974dd56b0eebee8ead7cec7ae0e21e805c85ac8c",
+        "git_blob_sha256": "89e4382fc608a5248caeeeff992b4182132ffc6ee892017e1fca5831b56f4fb5",
+        "working_copy_vs_blob": "line_endings_only"
+      },
+      {
+        "project": "FIDN-2",
+        "source_path": "train.py",
+        "original_sha256": "7563558f94d1b0dac473fb7d581c0b80cf06e71f5f7e5a5d52c12d9e8b972e83",
+        "reference_revision": "723e8eb4c353a13b579674313727745d366ceaf5",
+        "git_blob_sha256": "9a1fe022569f756b64e71a5d0c704f902cee8683c422b5d994145b78021a5159",
+        "working_copy_vs_blob": "line_endings_only"
+      }
+    ],
+    "modified": true,
+    "previous_candidate_sha256": "09da35f80ec902cefef72544d3633cf949d65edc91117d4d7f53c64494bc54ff"
+  }
+}

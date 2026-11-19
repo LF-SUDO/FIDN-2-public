@@ -1,0 +1,6 @@
+{
+  "data_path": "./data/fire_data.npy",
+  "model_path": "./models/residual_unet_seed42_20261118_154300/residual_unet_seed42_maxep100_bs16_es10_bestep25.h5",
+  "save_path": "./results",
+  "save_predictions": true
+}

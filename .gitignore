@@ -1,0 +1,37 @@
+# Local data, model assets and generated results
+/data/
+/models/
+/results/
+/.usability_audit/
+/USABILITY_REVISION_REPORT.md
+/checkpoints/
+/runs/
+/outputs/
+/result/
+/wandb/
+/.pytest_cache/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.npy
+*.npz
+*.h5
+*.keras
+*.zip
+*.log
+
+# Local release review
+/1/
+/PUBLIC_BUILD_REPORT.md
+/PUBLIC_MODEL_VERIFICATION.md
+/PUBLIC_REPRODUCIBILITY_CHECK.md
+/PUBLIC_SECURITY_AUDIT.md
+/PUBLIC_PENDING_ISSUES.md
+
+# Owner review and data awaiting redistribution permission
+/FINAL_PUBLICATION_READINESS.md
+/FINAL_RELEASE_FILE_LIST.md
+/CITATION.cff
+/reference/*.csv

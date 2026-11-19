@@ -1,0 +1,13 @@
+{
+  "model": "residual_unet",
+  "seed": 42,
+  "epochs": 100,
+  "batch_size": 16,
+  "optimizer": "adam",
+  "learning_rate": 0.001,
+  "loss": "binary_crossentropy",
+  "data_path": "./data/fire_data.npy",
+  "save_path": "./models",
+  "use_early_stopping": true,
+  "early_stopping_patience": 10
+}
